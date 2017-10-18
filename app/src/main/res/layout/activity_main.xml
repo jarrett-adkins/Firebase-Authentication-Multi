@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.firebaseauthentication.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google"
+        android:onClick="buttonPressed"/>
+
+    <Button
+        android:id="@+id/btnFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:onClick="buttonPressed"/>
+
+    <Button
+        android:id="@+id/btnTwitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Twitter"
+        android:onClick="buttonPressed"/>
+
+    <Button
+        android:id="@+id/btnGitHub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GitHub"
+        android:onClick="buttonPressed"/>
+
+</LinearLayout>

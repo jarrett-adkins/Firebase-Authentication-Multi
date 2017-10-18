@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Firebase Authentication</string>
+    <string name="signed_in_fmt">Signed in as: %1$s. Email: %2$s</string>
+</resources>
