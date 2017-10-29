@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".GoogleActivity" />
         <activity android:name=".TwitterActivity" />
-        <activity android:name=".GithubActivity"></activity>
+        <activity android:name=".GithubActivity" />
+        <activity android:name=".FacebookActivity"></activity>
     </application>
 
 </manifest>

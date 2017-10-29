@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
@@ -39,10 +40,22 @@ public class MainActivity extends AppCompatActivity {
                 startActivity( googleIntent );
 
                 break;
+            case R.id.btnFacebook:
+
+                Intent facebookIntent = new Intent( this, FacebookActivity.class );
+                startActivity( facebookIntent );
+
+                break;
             case R.id.btnTwitter:
 
                 Intent twitterIntent = new Intent( this, TwitterActivity.class );
                 startActivity( twitterIntent );
+
+                break;
+            case R.id.btnGitHub:
+
+                Intent githubIntent = new Intent( this, GithubActivity.class );
+                startActivity( githubIntent );
 
                 break;
 
